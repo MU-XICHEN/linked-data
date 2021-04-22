@@ -1,0 +1,13 @@
+[
+    {
+        "id": "1",
+        "name": "孙中山",
+        "symbolSize": 80,
+        "draggable": true
+    }, {
+        "id": "2",
+        "name": "卢慕贞",
+        "symbolSize": 50,
+        "draggable": true
+    }
+]
