@@ -60,7 +60,7 @@ import { getData } from "/api/getdata.js";
 export default {
   created() {
     //页面渲染时即进行绑定
-    getData("/data/Sun-Yat-sen_links.json").then((links) => {
+    getData("./data/Sun-Yat-sen_links.json").then((links) => {
       let outputLink = [];
       let uniqueLinkKey = new Set();
       links.forEach((x) => {
@@ -81,7 +81,7 @@ export default {
       });
       option.series[0].links = outputLink;
 
-      getData("/data/Sun-Yat-sen.json").then((data) => {
+      getData("./data/Sun-Yat-sen.json").then((data) => {
         //输出数据
         let alldata = [];
         for (let key in data) {
