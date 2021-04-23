@@ -1,0 +1,37 @@
+[{
+        "source": "1",
+        "target": "2",
+        "label": {
+            "show": true,
+            "formatter": "妻子",
+            "color": "red"
+        }
+    },
+    {
+        "source": "2",
+        "target": "1",
+        "label": {
+            "show": false,
+            "formatter": "丈夫",
+            "color": "red"
+        }
+    },
+    {
+        "source": "1",
+        "target": "3",
+        "label": {
+            "show": true,
+            "formatter": "mother",
+            "color": "red"
+        }
+    },
+    {
+        "source": "1",
+        "target": "4",
+        "label": {
+            "show": true,
+            "formatter": "mother",
+            "color": "red"
+        }
+    }
+]
